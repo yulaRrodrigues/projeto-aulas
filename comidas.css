@@ -1,0 +1,99 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(59, 51, 32);
+    
+    }
+    h1 {
+        color: rgb(20, 20, 20);
+        background-color: rgb(165, 134, 113);
+    
+    }
+    figure {
+        text-align: center;
+        background-color: rgb(206, 188, 109);
+        border: 6px solid rgb(6, 6, 5);
+    }
+    h2 {
+        border: 2px black;
+       }
+    p {
+        padding: 10px;
+        text-align: justify;
+        
+    
+      }
+    td {
+        text-align: justify;
+        }
+    header {    
+        background-color: rgb(206, 188, 109);
+        color: azure;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    .logo img{
+        width:20% ;
+    }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 10px ;
+        }
+        nav ul li a {
+            color: rgb(215, 222, 184);
+            text-decoration: none;
+            
+        }
+        
+        .menu-icon {
+         display: none;  
+         flex-direction: column; 
+         cursor: pointer;
+        }
+
+        /* Menu responsivo para Dispositivos Móveis*/
+        @media screen and (max-width: 600px) {
+          nav ul.menu-list {
+            display: none;
+        } 
+        .menu-icon {
+            display: flex;
+        }
+        /* Estilo menu expansível */
+    .menu-expanded {
+        display:flex;
+    }    
+        
+    }
+        
+           
+           
+
+        
+    
+        .menu-icon span {
+            height: 4px
+            
+        
+        }
+    
+
+    P {
+        padding: 10px;
+    }
+    figcaption 
+    {border: 2px black; 
+    
+        
+
+
+ }
+    
